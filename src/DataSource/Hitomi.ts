@@ -67,11 +67,11 @@ export class Hitomi implements IDataSource {
     }
 
     async insert(item: any): Promise<void> {
-        throw "Not Implementation"
+        throw 'Not Implementation';
     }
 
     async insertItems(item: any[]): Promise<void> {
-        throw "Not Implementation"
+        throw 'Not Implementation';
     }
 
     private MakeGalleryBlock(body: AxiosResponse, id: number) {

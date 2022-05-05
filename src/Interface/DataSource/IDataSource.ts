@@ -7,5 +7,5 @@ export interface IDataSource {
 
     insert(item: any): Promise<void>;
 
-    insertItems(item:any[]): Promise<void>;
+    insertItems(item: any[]): Promise<void>;
 }

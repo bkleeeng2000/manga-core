@@ -3,6 +3,7 @@ import {IDataSource} from '../Interface/DataSource/IDataSource';
 
 export class JsonDataSource implements IDataSource {
     private path: string;
+
     constructor(path: string) {
         this.path = path;
     }

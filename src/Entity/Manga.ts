@@ -1,5 +1,4 @@
-export class Manga
-{
+export class Manga {
     readonly id: number = 0;
     readonly url: string = '';
     readonly thumbnails: Array<string> = [];
