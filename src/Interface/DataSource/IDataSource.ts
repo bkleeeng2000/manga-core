@@ -5,6 +5,8 @@ export interface IDataSource {
 
     getById(id: number): Promise<any>;
 
+    getByIds(idList:number[]): Promise<any>;
+
     insert(item: any): Promise<void>;
 
     insertItems(item: any[]): Promise<void>;

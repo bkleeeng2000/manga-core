@@ -8,7 +8,7 @@ export class AllUseCase {
     }
 
     async getAll() {
-        const mangas = await this.repository.getAll();
+        const mangas = await this.repository.mirroring();
 
         // mangas.forEach(manga => {
         //     console.log(`id: ${manga.id}, title: ${manga.title}`);
