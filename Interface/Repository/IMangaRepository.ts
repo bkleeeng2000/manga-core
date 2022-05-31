@@ -4,4 +4,7 @@ export interface IMangaRepository {
     getAll(): Promise<Manga[]>;
 
     getManga(mangaId: number): Promise<Manga>;
+
+    mirroring(): Promise<void>;
+
 }
