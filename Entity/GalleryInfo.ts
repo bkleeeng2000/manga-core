@@ -71,4 +71,5 @@ export interface Manga {
     title: string;
     artists?: Array<string>;
     tags?: Array<Tag>;
+    date: string;
 }
